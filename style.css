@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  gap: 2rem;
+}
+
+header {
+  padding: 1rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+#high-low-container {
+  display: flex;
+  gap: 1rem;
+}
+
+#forecast-today-container {
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+  overflow-x: scroll;
+  text-align: center;
+}
+
+#forecast-today-container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 80px;
+}
