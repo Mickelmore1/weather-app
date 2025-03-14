@@ -27,6 +27,7 @@ async function weather(query) {
     ui.updateHour(data);
   } catch (err) {
     console.log(err);
+    address.innerText = "ERROR, TRY AGAIN";
   }
 }
 
